@@ -3,7 +3,7 @@ import os
 
 def main():
     source ="source1.png"
-    dest ="destination1.png"
+    dest ="destination1.png" 
     mask_image ="mask.png"
      
     source = cv2.imread(source, cv2.IMREAD_COLOR)

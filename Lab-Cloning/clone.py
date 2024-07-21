@@ -6,7 +6,7 @@ def main():
     dest ="destination1.png" 
     mask_image ="mask.png"
      
-    source = cv2.imread(source, cv2.IMREAD_COLOR)
+    source = cv2.imread(source, cv2.IMREAD_COLOR) 
     destination = cv2.imread(dest, cv2.IMREAD_COLOR)
     mask = cv2.imread(mask_image, cv2.IMREAD_COLOR)
 

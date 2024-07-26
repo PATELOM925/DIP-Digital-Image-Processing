@@ -4,7 +4,7 @@ import os
 print("Current working directory:", os.getcwd())
 
 def image_quality(input_fp, output_fp, quality):
-    image = Image.open(input_fp)
+    image = Image.open(input_fp) 
     image.save(output_fp, quality=quality, optimize=True)
 
 def image_converter(input_fp, output_fp, dpi):

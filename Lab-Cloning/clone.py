@@ -1,7 +1,7 @@
 import cv2
 import os
 
-def main():
+def main(): 
     source ="source1.png"
     dest ="destination1.png" 
     mask_image ="mask.png"
